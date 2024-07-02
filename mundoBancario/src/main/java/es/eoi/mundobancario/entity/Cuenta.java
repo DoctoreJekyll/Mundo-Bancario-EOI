@@ -9,5 +9,9 @@ import lombok.Setter;
 @Entity
 public class Cuenta 
 {
+	private Integer id;
+	private Integer numCuenta;
+	private String alias;
+	private double saldo;
 
 }
