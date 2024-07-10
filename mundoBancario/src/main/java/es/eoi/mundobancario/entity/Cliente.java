@@ -11,7 +11,7 @@ import jakarta.persistence.OneToMany;
 import lombok.Getter;
 import lombok.Setter;
 
-@Entity
+@Entity(name = "Clientes")
 @Getter
 @Setter
 public class Cliente {

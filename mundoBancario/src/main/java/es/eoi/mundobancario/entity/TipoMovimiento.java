@@ -12,7 +12,7 @@ import jakarta.persistence.OneToMany;
 import lombok.Getter;
 import lombok.Setter;
 
-@Entity
+@Entity(name = "Tipos de movimiento")
 @Getter
 @Setter
 public class TipoMovimiento 

@@ -13,7 +13,7 @@ import jakarta.persistence.OneToMany;
 import lombok.Getter;
 import lombok.Setter;
 
-@Entity
+@Entity(name = "Prestamos")
 @Getter
 @Setter
 public class Prestamo {
